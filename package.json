@@ -1,0 +1,19 @@
+{
+  "name": "searcher",
+  "version": "1.0.0",
+  "description": "Aggregates search results from various search engines",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Search",
+    "web"
+  ],
+  "author": "SS",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
