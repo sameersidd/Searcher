@@ -1,19 +1,26 @@
 {
-  "name": "searcher",
-  "version": "1.0.0",
-  "description": "Aggregates search results from various search engines",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Search",
-    "web"
-  ],
-  "author": "SS",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "request": "^2.88.0"
-  }
+	"name": "searcher",
+	"version": "1.0.0",
+	"description": "Aggregates search results from various search engines",
+	"main": "main.js",
+	"scripts": {
+		"start": "nodemon main"
+	},
+	"keywords": [
+		"Search",
+		"web"
+	],
+	"author": "SS",
+	"license": "ISC",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.3",
+		"express": "^4.17.1",
+		"fetch": "^1.1.0",
+		"request": "^2.88.0",
+		"request-promise-native": "^1.0.7",
+		"sanitize-html": "^1.20.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.1"
+	}
 }
